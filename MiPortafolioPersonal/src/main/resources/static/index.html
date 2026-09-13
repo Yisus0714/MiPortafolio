@@ -1,146 +1,183 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta name="description" content="portafolio profesional de ingeniero Jesus Martinez">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="keywords" content="portafolio,ingeniero en software">
-        <meta name="author" content="Jesus Manuel Martinez Cortez">
-        <meta name="robots" content="index,follow">
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="CSS/styles.css">
-        <title>Mi portafolio Personal</title>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Jesús Manuel Martínez Cortez, estudiante de Ingeniería en Software enfocado en desarrollo backend con Java.">
+    <meta name="author" content="Jesus Manuel Martinez Cortez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Jesús Martínez — Portafolio</title>
+</head>
+<body>
 
-    </head>
+<header class="site-header">
+    <div class="header-inner">
+        <div class="marca">
+            <p class="marca-nombre">Jesús Manuel Martínez Cortez</p>
+            <p class="marca-rol">Estudiante de Ingeniería en Software · Trainee Java y Soporte de Sistemas</p>
+        </div>
+        <nav class="nav-principal">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="hobbies.html">Hobbies</a>
+        </nav>
+    </div>
+</header>
 
-    <body>
-        <header>
-            <h1 id="Mi-Nombre">Jesus Manuel Martinez Cortez</h1>
-            <p>Ingeniero en software </p>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="hobbies.html"> Mis hobbies</a>
-            </nav>
-            <nav>
-                <a href="#sobre mi">Sobre mi</a>
-                <a href="#habilidades">habilidades</a>
-                <a href="#formacion">formacion</a>
-                <a href="#proyectos">proyectos</a>
-                <a href="#contacto">contacto</a>
-            </nav>
-        </header>
-        <main>
-            <section id="sobre-mi">
-                <h2>Sobre mi</h2>
-                <p class="destacado">
-                    <Strong>Estudiante de ingenieria en software en itson </Strong>
-                </p>
-                <img src="yo.jpeg" alt="Yo" width="200">
-            </section>
-            <section id="habilidades">
-                <h2>Habilidades</h2>
-                <p>
-                    <ul>
-                        <li>Solucion de problemas</li>
-                        <li>Estructuras de datos</li>
-                        <li>Bases de datos</li>
-                        <li>HTML</li>
-                        <li>JavaScript</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                        <li>TypeScript</li>
-                        <li>NodeJs</li>
-                        <li>C#</li>
-                        <li>PostgreSQL</li>
-                        <li>SQL</li>
-                        <li>Supabase</li>
-                    </ul>
-                </p>
-            </section>
-            <section id="formacion">
-                <h2>Formacion</h2>
-                <p>
-                    <ul>
-                        <li>
-                            Tecnico en programacion
-                        </li>
-                        <li>
-                            Estudiante de ingenieria en software
-                        </li>
-                    </ul>
-                </p>
-            </section>
-            <section id="proyectos">
-                <h2>Proyectos</h2>
+<main>
+    <section id="sobre-mi" class="hero">
+        <img src="yo.jpeg" alt="Foto de perfil de Jesús Martínez" class="foto-perfil" width="140" height="140">
+        <div class="hero-texto">
+            <h1>Hola, soy Jesús</h1>
+            <p>
+                Estudiante de Ingeniería en Software en el ITSON, enfocado en el desarrollo del lado del servidor:
+                lógica de negocio, diseño de bases de datos y consumo de APIs. Trabajo principalmente con Java y
+                Python, complemento mis proyectos con interfaces funcionales en HTML, CSS y JavaScript, y priorizo
+                el código limpio y las buenas prácticas.
+            </p>
+            <p>
+                Actualmente busco desarrollarme en áreas de soporte técnico, análisis y desarrollo de software,
+                combinando pensamiento analítico con facilidad para comunicarme con equipos y clientes.
+            </p>
+        </div>
+    </section>
 
-                    <ul>
-                        <li>
-                            duckman
-                            <ol>
-                                <li>html</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ol>
-                        </li>
-                        <li>
-                            question and science
-                            <ol>
-                                <li>html</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ol>
-                        </li>
-                        <li>
-                            GoOrder
-                            <ol>
-                                <li>html</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                            </ol>
-                        </li>
-                    </ul>
+    <section id="habilidades">
+        <h2>Habilidades técnicas</h2>
+        <div class="skills-grid">
+            <div class="skill-grupo">
+                <h3>Backend y lógica</h3>
+                <ul>
+                    <li>Java (POO)</li>
+                    <li>Python</li>
+                    <li>Node.js</li>
+                    <li>C#</li>
+                    <li>Estructuras de datos y algoritmos</li>
+                </ul>
+            </div>
+            <div class="skill-grupo">
+                <h3>Bases de datos</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>Supabase</li>
+                    <li>Consultas SQL</li>
+                </ul>
+            </div>
+            <div class="skill-grupo">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML5 y CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+            <div class="skill-grupo">
+                <h3>Herramientas y otras habilidades</h3>
+                <ul>
+                    <li>Git y GitHub</li>
+                    <li>Docker</li>
+                    <li>Microsoft Excel y MS Office</li>
+                    <li>Comunicación y atención al cliente</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-            </section>
-            <section id="contacto">
-                <article>
-                    <h2>Contacto</h2>
-                    <p>
-                        <a href="https://github.com/jesusmartinez262714" target="_blank"> github:https://github.com/jesusmartinez262714</a>
-                        <br>
-                        <a href="mailto:Jesus.martinez262714@potros.itson.edu.mx" target="_blank">Jesus.martinez262714@potros.itson.edu.mx</a>
-                        <br>
-                        <a href="tel:6442029146" target="_blank">Mi telefono: +52 6442029146</a>
-                        <br>
-                        <a href="https://wa.me/6442029146?text=hola me comunico desde tu portafolio" target="_blank">WhatsApp: +52 6442029146</a>
-                    </p>
-                </article>
+    <section id="experiencia">
+        <h2>Experiencia y formación</h2>
+        <ol class="linea-tiempo">
+            <li>
+                <span class="periodo">Ago 2023 — Actualidad</span>
+                <h3>Desarrollador Junior de Software</h3>
+                <p class="lugar">Proyectos académicos y personales</p>
+                <p>Desarrollo de aplicaciones en Java y Python orientadas a procesos de negocio, como control de
+                    inventarios, sistemas de comandas y seguimiento de ventas, aplicando programación orientada a
+                    objetos y control de versiones con Git.</p>
+            </li>
+            <li>
+                <span class="periodo">Ago 2024 — Actualidad</span>
+                <h3>Ingeniería en Software</h3>
+                <p class="lugar">Instituto Tecnológico de Sonora, Cd. Obregón</p>
+                <p>Formación en programación orientada a objetos, estructuras de datos, algoritmos y diseño de
+                    software.</p>
+            </li>
+            <li>
+                <span class="periodo">Ago 2021 — Jun 2024</span>
+                <h3>Técnico en Programación</h3>
+                <p class="lugar">CBTis No. 37, Cd. Obregón</p>
+                <p>Fundamentos de programación, resolución de problemas y desarrollo de aplicaciones básicas.</p>
+            </li>
+        </ol>
+    </section>
 
-            </section>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid">
+            <article class="proyecto-card">
+                <h3>GoOrder</h3>
+                <p>Sistema de gestión de pedidos y lógica comercial.</p>
+                <ul class="tags">
+                    <li>Java</li>
+                    <li>Lógica de negocio</li>
+                    <li>Arquitectura por capas</li>
+                </ul>
+            </article>
+            <a class="proyecto-card" href="https://artesustentable.netlify.app/login.html" target="_blank" rel="noopener">
+                <h3>ArteSustentable</h3>
+                <p>Plataforma web de concientización con catálogo interactivo.</p>
+                <ul class="tags">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+                <span class="ver-proyecto">Ver proyecto ↗</span>
+            </a>
+            <a class="proyecto-card" href="https://duckmangames.netlify.app/" target="_blank" rel="noopener">
+                <h3>DUCKMAN</h3>
+                <p>Catálogo de videojuegos con consumo multimedia y modales.</p>
+                <ul class="tags">
+                    <li>Bootstrap 5</li>
+                    <li>JavaScript</li>
+                    <li>Validación de datos</li>
+                </ul>
+                <span class="ver-proyecto">Ver proyecto ↗</span>
+            </a>
+            <a class="proyecto-card" href="https://questionandscience.netlify.app/" target="_blank" rel="noopener">
+                <h3>Questions &amp; Science</h3>
+                <p>Trivia gamificada con lógica de evaluación inmediata.</p>
+                <ul class="tags">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+                <span class="ver-proyecto">Ver proyecto ↗</span>
+            </a>
+        </div>
+    </section>
 
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Buscas un desarrollador en formación con ganas de aprender? Escríbeme por cualquiera de estos medios.</p>
+        <ul class="contacto-lista">
+            <li><a href="mailto:martinez.jesusc14@gmail.com">martinez.jesusc14@gmail.com</a></li>
+            <li><a href="tel:6442029146">+52 644 202 9146</a></li>
+            <li><a href="https://wa.me/6442029146?text=Hola,%20vi%20tu%20portafolio" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://github.com/JesusMartinez262714" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://portfolio-jesusmartinez.vercel.app" target="_blank" rel="noopener">Portafolio en Vercel</a></li>
+        </ul>
+    </section>
+</main>
 
-            <h3>Experiencia laboral (Tabla)</h3>
-            <table class="tabla-bonita">
-                <tr>
-                    <th>Empresa</th>
-                    <th>Puesto</th>
-                    <th>Años</th>
-                </tr>
-                <tr>
-                    <td>Itson</td>
-                    <td>Estudiante</td>
-                    <td>2 años</td>
-                </tr>
-
-            </table>
-        </main>
-        <footer>
-            <p>&copy; 2026 derechos reservador Jesus Martinez</p>
-        </footer>
-    </body>
-
-
-
-
+<footer>
+    <p>&copy; 2026 Jesús Manuel Martínez Cortez</p>
+</footer>
+</body>
 </html>
